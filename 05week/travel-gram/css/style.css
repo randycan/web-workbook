@@ -2,8 +2,43 @@
   color: black;
   text-align: center;
 }
+
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto auto;
   grid-gap: 1em;
+}
+
+.largebox {
+  background-color: green;
+  height: 250px;
+  width: 100%;
+}
+
+.rectangle {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1em;
+}
+
+.smallbox {
+  background-color: blue;
+  height: 300px;
+  width: 300;
+}
+.smallbox2 {
+  background-color: purple;
+  height: 300px;
+  width: 300px;
+}
+.smallbox3 {
+  background-color: orange;
+  height: auto;
+  width: auto;
+}
+.smallerbox {
+  background-color: yellow;
+  height: 150;
+  width: auto;
+  align-items: flex-end;
 }
